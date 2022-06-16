@@ -1,0 +1,49 @@
+body{
+    background-color:  #00B894;
+}
+
+#root{
+    height: 400px;
+    padding: 50px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.cards{
+    width: 300px;
+    height: 400px;
+    padding: 20px;
+    background-color: #5F27CD;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center; 
+}
+
+.cards img{
+    height: 75%;
+    max-width: 100%;
+}
+
+p{
+    color: #ffffff;
+    font-size: 40px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+        Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    line-height: 47px;
+    display: block;
+}
+
+.para {
+    display: flex;
+    margin: auto;
+    margin-top: 3%;
+    align-items: center;
+    width: 1415px;
+    height: 375px;
+    background-color: #576574;
+    text-align: left;
+    padding-left: 28px;
+    box-sizing: border-box;
+  }
